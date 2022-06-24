@@ -1,0 +1,172 @@
+/* CSS Variables -> Color Themes */
+.divii {
+  --custom-background-color:#FCFCFC;
+  --block-bg: #E3E3E3;
+  --theme-color: #5B9EBB;
+  --text-primary: #333333;
+  --heading-1: #266076;
+  --heading-2: #D6EBF0;
+  --text-link: #5B9EBB;
+  --font: "helvetica", sans-serif;
+}
+
+/* End of | CSS Variables -> Color Themes */
+
+html {
+  line-height: 1.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: var(--custom-background-color);
+  color: var(--text-primary);
+  font-family: var(--font);
+}
+
+footer p{
+  font-weight: bold;
+  text-align: center;
+  color: var(--heading-1);
+}
+
+h1, h2, h3, h4 {
+  color: var(--heading-1);
+}
+
+p {
+  text-align: justify;
+  color: var(--text-primary);
+  font-weight: lighter;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: 1s;
+  color: var(--text-link);
+}
+
+a:hover {
+  color: var(--heading-2);
+}
+
+nav {
+  font-size: 2rem;
+  padding-bottom: 60px;
+}
+
+header {
+  padding-bottom: 20px;
+  border-bottom: 3px solid;
+  color: var(--theme-color);
+}
+
+footer {
+  margin: 20px;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+  max-width: 300px;
+  transition-duration: 1s;
+}
+
+.logo:hover {
+  opacity: 50%;
+}
+
+.nav {
+  float: right;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+#logo {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 2rem;
+  color: var(--heading-1);
+}
+
+.page {
+  background-color: var(--theme-color);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.block {
+  margin: 20px;
+  padding: 10px;
+  background-color: var(--custom-background-color);
+  border-radius: 20px;
+}
+
+.inner-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block p {
+  color: var(--text-primary);
+}
+
+
+.team {
+  width: 100%;
+
+}
+
+.landing-page {
+  background-color: var(--theme-color);
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-block h2 {
+  font-size: 2rem;
+
+}
+
+.landing-block {
+  background-color: var(--custom-background-color);
+  padding: 1%;
+  margin: 10px;
+  border-radius: 20px;
+  width: 50%;
+  transition-duration: 1s;
+  height: 300px;
+  text-align: center;
+}
+
+.landing-block:hover {
+  background-color: var(--theme-color);
+}
+
+.landing-title {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.portrait-img {
+  background-color: var(--theme-color);
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+  height: auto;
+  margin-top: -40px; 
+  margin-right: 10px;
+  float: left;
+}
+
+.active {
+  color: var(--heading-1);
+}
+
+
