@@ -14,8 +14,8 @@
 
 html {
   line-height: 1.5rem;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 2px;
+  padding-right: 2px;
   background-color: var(--custom-background-color);
   color: var(--text-primary);
   font-family: var(--font);
@@ -37,6 +37,11 @@ p {
   font-weight: lighter;
 }
 
+ul {
+
+  font-weight: lighter;
+}
+
 a {
   font-weight: bold;
   text-decoration: none;
@@ -50,13 +55,13 @@ a:hover {
 
 nav {
   font-size: 2rem;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
+  border-bottom: 3px solid;
+  color: var(--theme-color);
 }
 
 header {
   padding-bottom: 20px;
-  border-bottom: 3px solid;
-  color: var(--theme-color);
 }
 
 footer {
@@ -75,9 +80,7 @@ footer {
 }
 
 .nav {
-  float: right;
-  justify-content: center;
-  padding-left: 10px;
+  float: left;
   padding-right: 10px;
   padding-top: 20px;
 }
@@ -97,7 +100,7 @@ footer {
 
 .block {
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   background-color: var(--custom-background-color);
   border-radius: 20px;
 }
@@ -115,32 +118,31 @@ footer {
 
 .team {
   width: 100%;
-
 }
 
 .landing-page {
   background-color: var(--theme-color);
   border-radius: 20px;
   padding: 10px;
-  display: flex;
-  flex: space-around;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  margin: auto;
 }
 
 .landing-block h2 {
   font-size: 2rem;
-
 }
 
 .landing-block {
   background-color: var(--custom-background-color);
   padding: 1%;
-  margin: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
   border-radius: 20px;
-  width: 50%;
+  width: 90%;
   transition-duration: 1s;
-  height: 300px;
+  height: 200px;
   text-align: center;
 }
 
@@ -149,8 +151,8 @@ footer {
 }
 
 .landing-title {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .portrait-img {
@@ -158,7 +160,7 @@ footer {
   border-radius: 50%;
   padding: 10px;
   text-align: center;
-  width: 20%;
+  width: 30%;
   height: auto;
   margin-top: -40px; 
   margin-right: 10px;
@@ -169,4 +171,94 @@ footer {
   color: var(--heading-1);
 }
 
+@media only screen and (min-width: 370px) {
+  .landing-block {
+    height: 260px;
+  } 
+}
+
+@media only screen and (min-width: 430px) {
+  .landing-block {
+    height: 300px;
+  } 
+  .nav {
+    font-size: 1rem;
+    float: right;
+    padding-top: 40px;
+  }
+  nav {
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 480px) {
+  .landing-block {
+    height: 300px;
+  } 
+
+}
+
+@media only screen and (min-width: 500px) {
+  .nav {
+    font-size: 1.5rem;
+  }
+  .landing-title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .landing-block {
+    height: 340px;
+  } 
+}
+
+
+@media only screen and (min-width: 768px) {
+  html {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .landing-block {
+    height: 240px;
+    width: 50%;
+    margin: 10px;
+  } 
+  .landing-page {
+    display: flex;
+    flex: space-between;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav {
+    font-size: 2rem;
+    justify-content: center;
+  }
+  .landing-title {
+    font-size: 4rem;
+    line-height: 4rem;  
+  }
+  .portrait-img {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .landing-block {
+    height: 300px;
+  } 
+}
+
+@media only screen and (min-width: 1550px) {
+  html {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .landing-block {
+    height: 340px;
+  } 
+}
 

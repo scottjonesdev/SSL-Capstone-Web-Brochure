@@ -1,5 +1,5 @@
 <div markdown="1">
-<h1 class="landing-title">SSL Capstone Project - Divii</h1>
+<h1 class="landing-title">SSL Capstone Project</h1>
 </div>
 <div class="landing-page" markdown="1">
 
