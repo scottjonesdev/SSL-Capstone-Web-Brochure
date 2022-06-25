@@ -3,7 +3,7 @@
 <div class="block" markdown="1">
 <h2>Overview</h2>
 
-Divii is developing an application to generate legal separation agreements from user input. Team SSL was brought in when the tool had much of its functionality built in, except for the ability to calculate child support payments. These calculations require data that is provided on provincial websites. SSL’s task was to build a tool to acquire that data, store it, and perform the calculations that require it. Team members also took on additional tasks, such as UI upgrades, from discussions with the project sponsor.
+<a href="https://www.divii.ca" target="_blank">Divii</a> is developing an application to generate legal separation agreements from user input. Team SSL was brought in when the tool had much of its functionality built in, except for the ability to calculate child support payments. These calculations require data that is provided on provincial websites. SSL’s task was to build a tool to acquire that data, store it, and perform the calculations that require it. Team members also took on additional tasks, such as UI upgrades, from discussions with the project sponsor.
 
 Since the start of May, SSL has completed most of the technical requirements in building this tool. Data scraping, storage, and calculations are all functioning.  Most of the technical challenges have been overcome, and what will follow will be integration of those functions, and improvement to the delivered tool.
 </div>
