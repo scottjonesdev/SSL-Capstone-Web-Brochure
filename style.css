@@ -95,12 +95,12 @@ footer {
 .page {
   background-color: var(--theme-color);
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .block {
-  margin: 20px;
-  padding: 20px;
+  margin: 8px;
+  padding: 8px;
   background-color: var(--custom-background-color);
   border-radius: 20px;
 }
@@ -123,7 +123,7 @@ footer {
 .landing-page {
   background-color: var(--theme-color);
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   margin: auto;
 }
@@ -134,10 +134,10 @@ footer {
 
 .landing-block {
   background-color: var(--custom-background-color);
-  padding: 1%;
+  padding: 15px;
   margin: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
   justify-content: center;
   border-radius: 20px;
   width: 90%;
@@ -205,6 +205,18 @@ footer {
     font-size: 3rem;
     line-height: 3rem;
   }
+  .block {
+    margin: 20px;
+    padding: 20px;
+  }
+  .page {
+    padding: 10px;
+  }
+  .landing-block {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  } 
 }
 
 @media only screen and (min-width: 600px) {
