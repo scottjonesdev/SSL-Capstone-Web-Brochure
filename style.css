@@ -79,6 +79,15 @@ footer {
   opacity: 50%;
 }
 
+.logo-img {
+  transition-duration: 1s;
+}
+
+.logo-img:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
 .nav {
   float: left;
   padding-right: 10px;
