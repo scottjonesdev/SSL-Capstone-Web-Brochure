@@ -21,8 +21,12 @@ The completed project will provide calculations for child support payments. Addi
 - User interface must match the style of the current application.
 - Calculations provided must be usable within other tools in the application.
 - The tool must be modifiable to support potential changes in the law.
-
-[Screenshots from application]
+<h3>Some Screenshots From the Application</h3>
+<div class="screenshots">
+	<img src="images/child-support-1.png" class="screenshot" alt="child support inputs" onclick="window.open(this.src)">
+	<img src="images/child-support-2.png" class="screenshot" alt="child support results" onclick="window.open(this.src)">
+	<img src="images/editor.png" class="screenshot" id="last-screenshot" alt="divii builder page" onclick="window.open(this.src)">
+</div>
 </div>
 
 <div class="block" markdown="1">

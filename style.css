@@ -191,6 +191,25 @@ footer {
   color: var(--heading-1);
 }
 
+.screenshots {
+  background-color: var(--heading-1);
+  border-radius: 20px;
+  text-align: center;
+}
+.screenshot {
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  transition-duration: 1s;
+}
+.screenshot:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+#last-screenshot {
+  margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 370px) {
   .landing-block {
     height: 260px;
@@ -285,6 +304,22 @@ footer {
   .landing-block {
     height: 300px;
   } 
+}
+
+@media only screen and (min-width: 1200px) {
+  .landing-block {
+    height: 300px;
+  } 
+  .screenshots {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .screenshot {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 30%;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
