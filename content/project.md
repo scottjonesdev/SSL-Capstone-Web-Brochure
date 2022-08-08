@@ -27,6 +27,10 @@ The completed project will provide calculations for child support payments. Addi
 	<img src="images/child-support-2.png" class="screenshot" alt="child support results" onclick="window.open(this.src)">
 	<img src="images/editor.png" class="screenshot" id="last-screenshot" alt="divii builder page" onclick="window.open(this.src)">
 </div>
+<h3>Project Demo</h3>
+<div class="youtube">
+<iframe src="https://www.youtube-nocookie.com/embed/9i3QsaSd3qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 
 <div class="block" markdown="1">
