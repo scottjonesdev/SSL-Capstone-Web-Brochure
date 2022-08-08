@@ -209,11 +209,24 @@ footer {
 #last-screenshot {
   margin-bottom: 20px;
 }
+iframe {
+  padding: auto;
+  border-radius: 10px;
+  width: 240px;
+  height: 135px;
+}
+.youtube {
+  text-align: center;
+}
 
 @media only screen and (min-width: 370px) {
   .landing-block {
     height: 260px;
   } 
+  iframe {
+    width: 240px;
+    height: 135px;
+  }
 }
 
 @media only screen and (min-width: 430px) {
@@ -228,13 +241,16 @@ footer {
   nav {
     padding-bottom: 100px;
   }
+  iframe {
+    width: 360px;
+    height: 202.5px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .landing-block {
     height: 300px;
   } 
-
 }
 
 @media only screen and (min-width: 500px) {
@@ -263,6 +279,10 @@ footer {
   .landing-block {
     height: 340px;
   } 
+  iframe {
+    width: 480px;
+    height: 270px;
+  }
 }
 
 
@@ -320,6 +340,10 @@ footer {
     margin-bottom: 20px;
     max-width: 30%;
   }
+  iframe {
+    width: 720px;
+    height: 405px;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
@@ -333,5 +357,9 @@ footer {
   .landing-block {
     height: 340px;
   } 
+  iframe {
+    width: 960px;
+    height: 540px;
+  }
 }
 
